@@ -1,0 +1,18 @@
+3 nehézség fokozat = 3 állítás 
+	szint true
+	másik két szint false
+	nullázó() [körszám, lapösszeg, állandó tömb]
+Kérek még
+	3 if (fokozat true)
+		kiir körszám (ehhez számláló tömb, nullázni fokozatváltáskor)
+		randomszám alkotás
+		kiir lapok összege (ehhez számláló tömb, nullázni fokozatváltáskor)
+		kiir lapválasztás
+Nem kérek
+	3 if (fokozat true)
+		if (tomb első összeg 22 és ... [nyerő])
+		else[vesztő]
+			
+
+
+3 állandó tömb fokozatonként amit lenulláz a fokozatválaszás
