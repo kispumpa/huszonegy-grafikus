@@ -191,7 +191,7 @@ namespace huszonegy
             }
             else if (kozepesClicked)
             {
-                if (nemkerekClicked == true)
+                if (nemkerekClicked == true || kapcsolo == false)
                 {
                     Clear();
                 }
@@ -210,7 +210,7 @@ namespace huszonegy
             }
             else if (nehezClicked)
             {
-                if (nemkerekClicked == true)
+                if (nemkerekClicked == true || kapcsolo == false)
                 {
                     Clear();
                 }
