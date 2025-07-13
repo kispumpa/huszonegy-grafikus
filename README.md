@@ -33,7 +33,10 @@ A **Huszonegy** egy magyar kártyajáték implementáció C# Windows Forms alkal
 ### Követelmények
 - .NET Framework 4.7.2 vagy újabb
 - Windows operációs rendszer
+
+### Alkalmazás
 - Visual Studio 2017 vagy újabb (fejlesztéshez)
+- A Release-ben található exe fájl (játékhoz)
 
 ## Projektszerkezet
 
@@ -62,9 +65,9 @@ huszonegy/
 
 ## Készítő
 
-**Matula Márton**  
-Első változat: 2022. május 25. *v.1.0.0.0*
-Legutóbbi változat: 2025. július 13. *v.1.0.0.5*
+- **Matula Márton**  
+- Első változat: 2022. május 25. *v.1.0.0.0*
+- Legutóbbi változat: 2025. július 13. *v.1.0.0.5*
 ---
 
 *Ez a README az 5. verzió (2025.07.13.) alapján készült.*
