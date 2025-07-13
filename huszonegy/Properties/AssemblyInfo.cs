@@ -1,5 +1,9 @@
-﻿using System.Resources;
+﻿// <copyright file="AssemblyInfo.cs" company="PlaceholderCompany">
+// Copyright (c) Matula Marton. All rights reserved.
+// </copyright>
+
 using System.Reflection;
+using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 

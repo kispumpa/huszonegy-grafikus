@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace huszonegy.Properties
+namespace Huszonegy.Properties
 {
 
 

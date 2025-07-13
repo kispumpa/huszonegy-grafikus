@@ -1,4 +1,4 @@
-﻿namespace huszonegy
+﻿namespace Huszonegy
 {
     partial class Huszonegy
     {
@@ -70,7 +70,7 @@
             this.infoToolStripMenuItem.Name = "infoToolStripMenuItem";
             this.infoToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
             this.infoToolStripMenuItem.Text = "A játékról";
-            this.infoToolStripMenuItem.Click += new System.EventHandler(this.infoToolStripMenuItem_Click);
+            this.infoToolStripMenuItem.Click += new System.EventHandler(this.InfoToolStripMenuItem_Click);
             // 
             // jatekszabalyToolStripMenuItem
             // 
@@ -90,7 +90,7 @@
             this.altalanosToolStripMenuItem.Name = "altalanosToolStripMenuItem";
             this.altalanosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.altalanosToolStripMenuItem.Text = "Általános";
-            this.altalanosToolStripMenuItem.Click += new System.EventHandler(this.altalanosToolStripMenuItem_Click);
+            this.altalanosToolStripMenuItem.Click += new System.EventHandler(this.AltalanosToolStripMenuItem_Click);
             // 
             // konnyuJatekToolStripMenuItem
             // 
@@ -98,7 +98,7 @@
             this.konnyuJatekToolStripMenuItem.Name = "konnyuJatekToolStripMenuItem";
             this.konnyuJatekToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.konnyuJatekToolStripMenuItem.Text = "Könnyű játék";
-            this.konnyuJatekToolStripMenuItem.Click += new System.EventHandler(this.konnyuJatekToolStripMenuItem_Click);
+            this.konnyuJatekToolStripMenuItem.Click += new System.EventHandler(this.KonnyuJatekToolStripMenuItem_Click);
             // 
             // kozepesJatekToolStripMenuItem
             // 
@@ -106,7 +106,7 @@
             this.kozepesJatekToolStripMenuItem.Name = "kozepesJatekToolStripMenuItem";
             this.kozepesJatekToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.kozepesJatekToolStripMenuItem.Text = "Közepes játék";
-            this.kozepesJatekToolStripMenuItem.Click += new System.EventHandler(this.kozepesJatekToolStripMenuItem_Click);
+            this.kozepesJatekToolStripMenuItem.Click += new System.EventHandler(this.KozepesJatekToolStripMenuItem_Click);
             // 
             // nehezJatekToolStripMenuItem
             // 
@@ -114,7 +114,7 @@
             this.nehezJatekToolStripMenuItem.Name = "nehezJatekToolStripMenuItem";
             this.nehezJatekToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.nehezJatekToolStripMenuItem.Text = "Nehéz játék";
-            this.nehezJatekToolStripMenuItem.Click += new System.EventHandler(this.nehezJatekToolStripMenuItem_Click);
+            this.nehezJatekToolStripMenuItem.Click += new System.EventHandler(this.NehezJatekToolStripMenuItem_Click);
             // 
             // nehézségToolStripMenuItem
             // 
@@ -133,7 +133,7 @@
             this.konnyuToolStripMenuItem.Name = "konnyuToolStripMenuItem";
             this.konnyuToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.konnyuToolStripMenuItem.Text = "Könnyű";
-            this.konnyuToolStripMenuItem.Click += new System.EventHandler(this.konnyuToolStripMenuItem_Click);
+            this.konnyuToolStripMenuItem.Click += new System.EventHandler(this.KonnyuToolStripMenuItem_Click);
             // 
             // kozepesToolStripMenuItem
             // 
@@ -141,7 +141,7 @@
             this.kozepesToolStripMenuItem.Name = "kozepesToolStripMenuItem";
             this.kozepesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.kozepesToolStripMenuItem.Text = "Közepes";
-            this.kozepesToolStripMenuItem.Click += new System.EventHandler(this.kozepesToolStripMenuItem_Click);
+            this.kozepesToolStripMenuItem.Click += new System.EventHandler(this.KozepesToolStripMenuItem_Click);
             // 
             // nehezToolStripMenuItem
             // 
@@ -149,7 +149,7 @@
             this.nehezToolStripMenuItem.Name = "nehezToolStripMenuItem";
             this.nehezToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.nehezToolStripMenuItem.Text = "Nehéz";
-            this.nehezToolStripMenuItem.Click += new System.EventHandler(this.nehezToolStripMenuItem_Click);
+            this.nehezToolStripMenuItem.Click += new System.EventHandler(this.NehezToolStripMenuItem_Click);
             // 
             // label1
             // 
@@ -172,7 +172,7 @@
             this.btn_kerekmeg.TabIndex = 8;
             this.btn_kerekmeg.Text = "Kérek még!";
             this.btn_kerekmeg.UseVisualStyleBackColor = true;
-            this.btn_kerekmeg.Click += new System.EventHandler(this.btn_kerekmeg_Click);
+            this.btn_kerekmeg.Click += new System.EventHandler(this.Btn_kerekmeg_Click);
             // 
             // lbl_kiiras
             // 
@@ -193,7 +193,7 @@
             this.btn_nemkerek.TabIndex = 10;
             this.btn_nemkerek.Text = "Nem kérek!";
             this.btn_nemkerek.UseVisualStyleBackColor = true;
-            this.btn_nemkerek.Click += new System.EventHandler(this.btn_nemkerek_Click);
+            this.btn_nemkerek.Click += new System.EventHandler(this.Btn_nemkerek_Click);
             // 
             // lbl_nehezseg
             // 
@@ -225,7 +225,7 @@
             this.btn_ujjatek.TabIndex = 13;
             this.btn_ujjatek.Text = "Új játék";
             this.btn_ujjatek.UseVisualStyleBackColor = true;
-            this.btn_ujjatek.Click += new System.EventHandler(this.btn_ujjatek_Click);
+            this.btn_ujjatek.Click += new System.EventHandler(this.Btn_ujjatek_Click);
             // 
             // label2
             // 

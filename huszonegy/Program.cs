@@ -1,18 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace huszonegy
+﻿// <copyright file="Program.cs" company="PlaceholderCompany">
+// Copyright (c) Matula Marton. All rights reserved.
+// </copyright>
+namespace Huszonegy
 {
+    using System;
+    using System.Windows.Forms;
+
+    /// <summary>Class for the application running.</summary>
     internal static class Program
     {
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
-        static void Main()
+        public static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
