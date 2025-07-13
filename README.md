@@ -1,32 +1,34 @@
-# Huszonegy
+# 🃏 Huszonegy - Magyar kártyajáték
+**Grafikus változat**
+<br><br>
 
 ## Leírás
-
 A **Huszonegy** egy magyar kártyajáték implementáció C# Windows Forms alkalmazásként. A játék célja, hogy a kézben levő kártyák összege megközelítse vagy elérje a 21-et anélkül, hogy túllépné azt.
+<br><br>
 
-## Játékszabályok
-
-### Alapszabályok
+## 🎲 Játékszabályok
 - A kártyák összege törekedjen a 21-re, de ne lépje túl
 - 16 összegű eredménynél már meg lehet állni, vagy lehet kockáztatni új kártyával
 - Az ellenfél egy számítógépes robot
 - A nagyobb összegű lap tulajdonosa nyer
 - Egyenlő eredmény esetén az osztó nyer
 - Ha az első két kártya összege 22 (11+11), az a "huszonegy Joker" és nyerő kombináció
+<br><br>
 
-### Nehézségi szintek
+## Nehézségi szintek
 
-#### 🟢 Könnyű
+### 🟢 Könnyű
 - A robot eredménye túllépheti a 22-őt
 - Te vagy az osztó
 
-#### 🟡 Közepes  
+### 🟡 Közepes  
 - A robot eredménye maximum 4 számmal lépheti túl a 22-őt
 - Te vagy az osztó
 
-#### 🔴 Nehéz
+### 🔴 Nehéz
 - A robot eredménye 16-22 között lehet
 - A robot az osztó
+<br><br>
 
 ## Telepítés és futtatás
 
@@ -37,8 +39,9 @@ A **Huszonegy** egy magyar kártyajáték implementáció C# Windows Forms alkal
 ### Alkalmazás
 - Visual Studio 2017 vagy újabb (fejlesztéshez)
 - A Release-ben található exe fájl (játékhoz)
+<br><br>
 
-## Projektszerkezet
+## 🏗️ Projektszerkezet
 
 ```
 huszonegy/
@@ -54,8 +57,9 @@ huszonegy/
 ├── stylecop.json         # Kódstílus beállítások
 └── huszonegy.csproj      # Projekt fájl
 ```
+<br>
 
-## Fejlesztési információk
+## ℹ️ Fejlesztési információk
 
 ### Használt technológiák
 - **Nyelv**: C# (.NET Framework 4.7.2)
@@ -63,11 +67,12 @@ huszonegy/
 - **Kódstílus**: StyleCop Analyzers
 - **Fejlesztői környezet**: Visual Studio
 
-## Készítő
+### Készítő
 
 - **Matula Márton**  
 - Első változat: 2022. május 25. *v.1.0.0.0*
 - Legutóbbi változat: 2025. július 13. *v.1.0.0.5*
----
+<br><br>
 
-*Ez a README az 5. verzió (2025.07.13.) alapján készült.*
+---
+*Ez a README az 2. release (v1.1.250713) alapján készült.*
