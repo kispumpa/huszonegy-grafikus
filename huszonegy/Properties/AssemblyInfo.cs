@@ -11,11 +11,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Huszonegy")]
-[assembly: AssemblyDescription("Verziók: 1: 2022. 05. 25. 2: 2022. 05. 27. 3: 2022. 05. 28. 4: 2023. 08. 06.")]
+[assembly: AssemblyDescription("Verziók: 1: 2022. 05. 25. 2: 2022. 05. 27. 3: 2022. 05. 28. 4: 2023. 08. 06. 5: 2025. 07. 13.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("huszonegy")]
-[assembly: AssemblyCopyright("Copyright ©  2022")]
+[assembly: AssemblyCopyright("Copyright © Matula Márton 2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -37,6 +37,6 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.4")]
-[assembly: AssemblyFileVersion("20.23.8.6")]
+[assembly: AssemblyVersion("1.0.0.5")]
+[assembly: AssemblyFileVersion("20.25.7.13")]
 [assembly: NeutralResourcesLanguage("hu-HU")]
